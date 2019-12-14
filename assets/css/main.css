@@ -7,6 +7,7 @@ body {
     width: 100%;
     align-items: center;
     text-align: center;
+    /* font-variant: small-caps; */
     grid-template-columns: minmax(20px,1fr) auto minmax(20px,1fr);
     grid-gap: 20px
 }
@@ -24,7 +25,7 @@ body {
     text-indent: 0!important
 }
 
-ol li {
+ol li, ul li {
     margin-bottom: 1rem
 }
 
@@ -34,4 +35,21 @@ ol li {
 
 .eskimo-page-content h1 {
     text-align: center
+}
+
+ul.a {
+  list-style: circle;
+  margin-bottom: 1rem
+}
+
+ul.b {
+  list-style: square;
+}
+
+ol.c {
+  list-style: upper-roman;
+}
+
+ol.d {
+  list-style: lower-alpha;
 }
